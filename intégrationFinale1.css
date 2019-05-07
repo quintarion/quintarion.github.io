@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100vw;
+}
+
+.attractiveBox {
+    background-image : url(https://images.unsplash.com/photo-1551109543-e37833b2e37f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+}
+
+html a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+h1, h2 {
+    font-size: 1rem,
+    margin-left: none;
+    padding: 2.5vw;
+}
+
+.ringContainer, .rewardContainer, .armyContainer, .contactContainer, .containerHunter {
+    margin: 2vw;
+}
+
+.rounded {
+    padding: 1rem 0 0 1rem;
+}
+
+.boxHunter {
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 3vw;
+}
+
+.avatar {
+    border: 1px solid grey;
+    box-shadow: 0px 5px 20px #999;
+    width: 9rem;
+}
+
+.armyContainer {
+    background-image: url(https://image.noelshack.com/fichiers/2019/19/2/1557241117-webp-net-resizeimage-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(90, 6, 6);
+    width: 100vw;
+    padding: 2vw;
+    padding-bottom: 10vw;
+}
+
+.thumb {
+    opacity: 0.7;
+    width: 1.5rem;
+}
+
+.armyStyle {
+    position: absolute;
+}
+
+video {
+    left: 50%;
+    position: relative;
+}
+
+.navM {
+    padding-left: 2rem;
+}
+
+.containerPills {
+    display: flex;
+    flex-flow: wrap; /*flex-direction and flex-wrap*/
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.containerPills a {
+    color:rgb(117, 117, 121);
+    margin: 0 2vw;
+    padding: 1vw;
+    width: 15vw;
+}
+
+.containerPills a:hover {
+    background-color: rgb(70, 70, 73);
+} 
+
+.decorationPills {
+    color:rgb(117, 117, 121) !important;
+}
+
+.containerCards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.cardM {
+    margin: 1rem;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 22rem;
+    width: 18rem;
+}
+
+.cardH {
+    background: rgba(0,0,0,.03) !important; /*ne fonctionne pas*/
+    margin-bottom: 1rem !important;
+}
+
+.col-3 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.row {
+    margin-left: 0;
+}
+
+thead {
+    background-color: rgb(117, 117, 121);
+    color: whitesmoke;
+}
+
+.thM .tdM {
+    width: 50% !important; /*ne fonctionne pas*/
+}
+
+.tableM {
+    border: 0.1rem solid rgb(70, 70, 73) !important;
+}
+
+.circleM {
+    border: 2px solid orange;
+    margin-bottom: 5rem;
+    margin-right: 10rem;
+    width: 10rem;
+}
+
+.rewardM {
+    padding: 0;
+}
+
+.container-fluid {
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.container-fluid a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333333;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 5vw;
+}
+
+.one, .two, .three {
+    color: whitesmoke;
+    font-size: 0.9rem;
+    margin-left: 5vw;
+    padding: 0.3vw;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footerContainer a {
+    color: whitesmoke;
+}
+
+.icon {
+    height: 3rem;
+    padding: 0.5vw;
+    width: 3rem;
+}
+
+.btn {
+    font-size: small;
+}
+
+.miniview {
+    visibility: hidden;
+}
+
+/*efects on 3 pictures*/
+
+.containerEffect{
+    box-shadow: 0px 5px 20px #999;
+    display: inline-block;
+    margin: 15px;
+    position: relative; 
+    text-align: center;
+    width: 150px;
+}
+  
+.containerEffect img{
+   opacity: 0.5;
+   width: 100%; 
+}
+  
+.containerEffect .text{
+    display: inline-block;
+    font-weight: bold;
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+  
+.containerEffect .character{
+    color : rgb(255, 255, 255, 1);
+    font-size: 30px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.orange{
+  color : rgba(160, 10, 68, 0.925);
+} 
+    
+.containerEffect:hover img {
+    opacity:1;
+}
+
+.containerEffect:hover .rectangle {
+    opacity: 0;
+}
+
+.containerEffect:hover .character {
+    color:  whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    left: 50%;
+    padding-bottom: 5px;
+    top: 60%;
+}
+
+.containerEffect:hover .elf{
+    color:  rgba(160, 10, 68, 0.925);
+    font-size: 20px;
+    font-weight: bold;
+    left: 50%;
+    padding-bottom: 5px;
+    top: 60%;
+}
+  
+.containerEffect .rectangle {
+   background:white;
+   border-radius: 10px;
+   height:80px;
+   left: 50%;
+   margin:10px auto;
+   opacity:0.5;
+   position: absolute;
+   top: 23%;
+   transform: translate(-50%, -50%);
+   width:130px;
+}
+
+.contact {
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/22/22/11/fog-2879455_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+    padding: 0 2rem 0 2rem;
+}
+
+.btnForm {
+    background-color: whitesmoke;
+    font-size: 1rem;
+    font-weight: none;
+} 
+
+.precious {
+    background-image: url(https://image.noelshack.com/fichiers/2019/19/2/1557242062-webp-net-resizeimage-15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 480px){
+    h1, h2 {
+        font-size: 1.5rem !important;
+    }
+    .navbar-light .navbar-brand {
+        font-size: 1rem;
+    }
+    .brand {
+        font-size: 1.5rem !important;
+        padding-left: 1rem;
+    }
+    .navbar-toggler {
+        margin-left: -10rem;
+    }
+    .precious {
+        background-image: none;
+        color: black;
+    }
+    .circleM {
+        margin: auto;
+        margin-right: none;  
+    }
+    .rounded {
+        display: none;
+    }
+    .one, .two, .three {
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: 10vw;
+    }
+    .twitter {
+        display: flex;
+        justify-content: center;
+    }
+    .miniview {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 481px) and (max-width: 780px) {
+    h1, h2 {
+        font-size: 30px !important;
+    }
+    .navbar-light .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .brand {
+        font-size: 1rem !important;
+    }
+    .boxHunter {
+        flex-flow: column wrap;
+    }
+    .hunter {
+        padding: 1rem;
+    }
+    .containerPills {
+        display: none;
+    }
+    .textArmy {
+        color: whitesmoke;
+    }
+    .one, .two, .three {
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: 10vw;
+    }
+    .twitter {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .miniview {
+        visibility: visible;
+    }
+    .circleM {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width:781px) and (max-width: 979px) {
+    h1, h2 {
+        font-size: 40px;
+    }
+    .navbar-light .navbar-brand {
+        font-size: 2rem;
+    }
+    .circleM {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+}
